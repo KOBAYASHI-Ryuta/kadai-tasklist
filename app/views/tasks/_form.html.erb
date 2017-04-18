@@ -23,10 +23,11 @@
       </div>
         
       <%= f.submit '追加', class: 'btn btn-primary' %>
-      <% end %>
-    </div>
+    <% end %>
+  </div>
   
-    <div class="col-sm-offset-2 col-sm-8 visible-sm">
+  <div class="col-sm-offset-2 col-sm-8 visible-sm">
+    <%= form_for(task) do |f| %>
       <% if task.errors.any? %>
       <div class="alert alert-warning">
         <ul>
@@ -49,10 +50,11 @@
       </div>
         
       <%= f.submit '追加', class: 'btn btn-primary' %>
-      <% end %>
-    </div>
+    <% end %>
+  </div>
   
-    <div class="col-md-offset-2 col-md-8 visible-md">
+  <div class="col-md-offset-2 col-md-8 visible-md">
+    <%= form_for(task) do |f| %>
       <% if task.errors.any? %>
       <div class="alert alert-warning">
         <ul>
@@ -75,10 +77,11 @@
       </div>
         
       <%= f.submit '追加', class: 'btn btn-primary' %>
-      <% end %>
-    </div>
+    <% end %>
+  </div>
   
-    <div class="col-lg-offset-3 col-lg-6 visible-lg">
+  <div class="col-lg-offset-3 col-lg-6 visible-lg">
+    <%= form_for(task) do |f| %>
       <% if task.errors.any? %>
       <div class="alert alert-warning">
         <ul>
